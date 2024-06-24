@@ -2,7 +2,7 @@
   "key": "linkTriangles",
   "name": "Link Triangles",
   "particles": {
-    "number": { "value": 100, "density": { "enable": false } },
+    "number": { "value": 100, "density": { "enable": true } },
     "color": {
       "value": "#fff",
       "animation": { "enable": true, "speed": 20, "sync": true }

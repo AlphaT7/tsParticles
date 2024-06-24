@@ -3,10 +3,18 @@ html, body {
     height: 100%;
     padding: 0;
     margin: 0;
+    background: #333;
 }
 
 #tsparticles {
     margin: 0 auto;
-    width: 250px;
-    height: 150px;
+    width: 400px;
+    height: 400px;
+}
+
+#print {
+    width: 400px;
+    height: auto;
+    color: #fff;
+    margin: 0 auto;
 }

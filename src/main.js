@@ -2,22 +2,28 @@ import { loadAll } from "@tsparticles/all";
 import { default as configs } from "@tsparticles/configs";
 
 const log = console.log.bind(console);
+const $ = document.querySelector.bind(document);
+const print = false;
 
-log(configs);
+Object.keys(configs).forEach((preset) => {
+  log(preset);
+});
+
+if (print) $("#print").innerText = JSON.stringify(configs.linkTriangles);
 
 loadAll(tsParticles);
 
 tsParticles
   .load(
-    // { id: "tsparticles", options: configs.multiplePolygonMasks }
+    // {
+    //   id: "tsparticles",
+    //   options: configs.linkTriangles,
+    // }
     {
       id: "tsparticles",
-      url: "./config.polygon.json",
+      url: "./config.json",
     }
   )
-  .then((container) => {
-    log("callback - tsparticles config loaded");
-  })
   .catch((error) => {
     console.error(error);
   });
