@@ -38,7 +38,7 @@
         "size": 3
       },
       "connect": {
-        "distance": 200,
+        "distance": 100,
         "links": {
           "opacity": 0.8
         },
@@ -75,7 +75,7 @@
       "blink": false,
       "color": "random",
       "consent": false,
-      "distance": 50,
+      "distance": 25,
       "enable": true,
       "opacity": 1,
       "width": 0.8,
@@ -92,7 +92,7 @@
       "trail": true
     },
     "number": {
-      "value": 300
+      "value": 175
     },
     "opacity": {
       "animation": {
@@ -111,5 +111,29 @@
     "size": {
       "value": 1
     }
+  },
+  "polygon": {
+    "draw": {
+      "enable": false,
+      "stroke": {
+        "color": "#fff",
+        "width": 0.75,
+        "opacity": 1
+      }
+    },
+    "enable": true,
+    "move": {
+      "radius": 10
+    },
+    "position": {
+      "x": 20,
+      "y": 45
+    },
+    "inline": {
+      "arrangement": "equidistant"
+    },
+    "scale": 2,
+    "type": "outside",
+    "url": "./jw.icon2.svg"
   }
 }

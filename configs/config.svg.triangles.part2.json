@@ -38,7 +38,7 @@
         "size": 3
       },
       "connect": {
-        "distance": 200,
+        "distance": 100,
         "links": {
           "opacity": 0.8
         },
@@ -75,21 +75,16 @@
       "blink": false,
       "color": "random",
       "consent": false,
-      "distance": 50,
+      "distance": 10,
       "enable": true,
       "opacity": 1,
-      "width": 0.8,
-      "triangles": {
-        "enable": true,
-        "color": { "value": ["#36b7ff", "#97d9ff", "#a9e2ff", "#0d86c5"] },
-        "opacity": 0.1
-      }
+      "width": 0.8
     },
     "move": {
       "enable": true,
       "outModes": "bounce",
       "speed": 1,
-      "trail": true
+      "trail": false
     },
     "number": {
       "value": 300
@@ -111,5 +106,29 @@
     "size": {
       "value": 1
     }
+  },
+  "polygon": {
+    "draw": {
+      "enable": false,
+      "stroke": {
+        "color": "#fff",
+        "width": 0.75,
+        "opacity": 1
+      }
+    },
+    "enable": true,
+    "move": {
+      "radius": 10
+    },
+    "position": {
+      "x": 20,
+      "y": 45
+    },
+    "inline": {
+      "arrangement": "equidistant"
+    },
+    "scale": 2,
+    "type": "inside",
+    "url": "./jw.icon2.svg"
   }
 }
